@@ -1,0 +1,486 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6623e;
+    font-size: 12px;
+}
+
+.headstart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.headfirst{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header a {
+    color: #fff;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: #fff8f6;
+
+}
+.header2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 1300px;
+}
+
+.header2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type:none ;
+}
+.header2 li {
+    font-size: 0.8rem;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* padding-left: 6px;
+    padding-right: 6px; */
+}
+
+.header2 li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header2 li a:hover{
+    color: #f6623e;
+}
+.menu-icons {
+    font-size: 1.1rem;
+}
+
+/* INTRODUCTION SECTION */
+.introduction-container{
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #fff8f6; */
+}
+.introduction-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.introduction-text .intro-text1{
+    color: #f6623e;
+    font-weight: 600;
+}
+.introduction-container h2{
+    font-size:3.2rem ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.introduction-container p{
+    margin-top: 10px;
+    color: rgb(109, 103, 103);
+    width: 100%;
+    max-width: 350px;
+}
+.intro-btn{
+    margin-top: 30px;
+}
+.intro-btn button {
+    color: #fff;
+    background-color: #f6623e;
+    border: none;
+    padding: 7px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.intro-btn button:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* SECTION FOUR */
+.sect4-container{
+    margin-top:40px ;
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffe7e7 ;
+}
+
+.sect4-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding-left:290px ;
+   }
+.sect4-text .sect4-text2{
+    font-weight: 600;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+.sect4-container .sect4box{
+    width: 100%;
+    max-width: 1000px;
+}
+/* .sect4-container img{
+    margin-top: 18px;
+    width: 100%;
+    max-width: 350px;
+} */
+.sect4-container .sect-4{
+    width: 100%;
+    padding: 18px;
+}
+
+/* SECTION FIVE */
+.sect5-container{
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sect5-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.sect5-img{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 1000px;
+    padding: 70px;
+}
+.sect5-container h2{
+    margin-top: 100px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    padding: 8px;
+}
+
+.sect5-container p{
+    color: #454454;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+}
+.sect-btn{
+    margin-top: 20px;
+    padding: 8px;
+}
+.sect-btn button{
+    color: #000;
+    background-color: #fff;
+    padding: 8px;
+    font-size: 10px;
+    border: 1px solid #f6623e;
+}
+.sect-btn button:hover{
+    transition: all .5s ease-in-out;
+    background-color: #f6623e;
+}
+
+/* SECTION SIX */
+/* .sect6-container {
+    margin-top: 40px;
+    padding:0 20px 0 20px;
+    display:flex;
+    background-color: #ffffff;
+
+}
+.sect6{
+    padding-left: 300px;
+}
+.sect6-container h2{
+    color: #000;
+    font-weight: 600;
+    line-height: 40px;
+}
+.sect6-container p{
+    color: #454454;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.sect6-link{
+    padding-left: 600px;
+    padding-bottom: 20px;
+}
+.sect6-container div a{
+    text-decoration: none;
+    color: #f6623e;
+    font-size: 10px;
+    font-weight: 700;
+    
+}
+.sect6-container div a:hover{
+    color: #000;
+}
+
+.sect6-row{
+    padding-right:300px;
+    
+}
+
+.sect6-container  img{
+    width: 100%;
+    max-width: 1140px;
+    align-items: center;
+}
+.sect6-container button{
+    border: none;
+    color: #000;
+}
+.sect6-container .sect6-btn{
+    color: #f6623e;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+}
+.sect6-container .sect-6-btn{
+    color: #9d9d9d;;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+} */
+
+/* SECTION 6 */
+.sect6-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+.sect6-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sect6-row{
+    margin-top: 50px;
+}
+.sect6-link a{
+    text-decoration: none;
+    color: #f6623e;
+}
+.sect6-box img{
+   width: 100%;
+   max-width: 370px;
+   height: 290px;
+}
+.contbn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 180px;
+}
+.btn1{
+    color: #f6623e;
+}
+.btn2{
+    text-decoration: line-through;
+    color:#454454;
+}
+
+
+/* .......................................... */
+/* SECTION SEVEN */
+
+.sect7-container{
+    margin-top: 100px;
+    background-color: #fff8f6;
+}
+.sect7-wrapper{
+    text-align: center;
+}
+.sect7-container h2{
+    font-weight: 900;
+    line-height: 42px;
+    font-size: 28px;
+}
+.sect7-container p{
+    padding: 12px;
+    font-weight: 400;
+    color: #454454;
+    font-size: 12px;
+    /* line-height: 32px; */
+}
+.sect7-container img{
+    width: 25%;
+}
+
+/* ******************* */
+/* SECTION EIGHT */
+.sect8-container{
+    margin-top: 80px;
+    padding: 20px ;
+    display:flex;
+    justify-content: center;
+}
+/* .sect8{
+    padding-left: 280px;
+    padding-right: 180px; 
+     width: 100%;
+    max-width: 1000px;
+} */
+.sect8-container h2, .sect6-container h2{
+    color: #000;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 32px;
+}
+.sect8-container p, .sect6-container p{
+    color: #454454;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.sect8-row{
+    margin-top: 30px;
+}
+ /* .sect8-row img{
+    justify-content: center;
+} */
+.sect8-row{
+    text-align: center;
+    /* padding-right: 180px; */
+}
+.sect8-row h3 {
+    font-weight: bold;
+
+}
+/* SECTION NINE */
+.sect9-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.sect9-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.sect9-d{
+    padding: 88px;
+}
+.sect9{
+    font-size: 6px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 25px;
+    vertical-align: top;
+}
+.sect9-d h2{
+    color: #f6623e;
+    margin-top: 12px;
+}
+.sect9-container .sect9-i {
+    margin-top: 12px;
+}
+.sect9-d p{
+    margin-top: 12px;
+    color: #454454;
+    font-size: 12px;
+    line-height: 24px;
+}
+.sect9-small{
+    color: #f6623e;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.sect9-btn{
+    margin-top: 12px;
+    font-size: 24px;
+}
+.sect912{
+    color: #f6623e;
+    /* border: 1px solid #f6623e; */
+    text-decoration: none;
+}
+.sect9-img{
+    /* width: 25%; */
+    max-width: 1000px;
+}
+
+/*SECTION TEN  */
+.sect10-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: #ecebf4;
+}
+.sect10-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.sect10-container h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+.sect10-container p{
+    color: #454454;
+    font-size: 12px;
+    line-height: 24px;
+}
+.sect10-link a{
+    text-decoration: none;
+    color: #f6623e;
+}
+.sect10-box img{
+    width: 100%;
+    max-width: 370px;
+}
+.sect10-box a{
+    text-decoration: none;
+    color: #f6623e;
+}
+/* SECTION ELEVEN */
+
+
+
+

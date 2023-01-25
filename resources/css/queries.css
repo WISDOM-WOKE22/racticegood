@@ -1,0 +1,24 @@
+/* FOOTER MEDIA QUERY */
+@media screen and (max-width:1150px) {
+    .footer-boxs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:800px){
+    .footer-sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-sub-box{
+        margin-top: 10px;
+    }
+}

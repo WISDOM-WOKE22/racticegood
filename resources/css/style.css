@@ -443,6 +443,15 @@ li {
     /* width: 25%; */
     max-width: 1000px;
 }
+.sect9-image1{
+    position: relative;
+    top: 300px;
+    left: 180px;
+    z-index: -1;
+}
+.sect9-image2{
+    z-index: 10;
+}
 
 /*SECTION TEN  */
 .sect10-container{
